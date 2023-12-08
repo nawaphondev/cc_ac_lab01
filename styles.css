@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Silkscreen', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    position: relative;
+    bottom: 25px;
+    width: 250px;
+    
+}
+
+h1 {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.close {
+    position: relative;
+    top: 5px;
+    right: 135px;
+    font-weight: bold;
+    color: gray;
+}
+
+.noti-num {
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    position: relative;
+    left: 260px;
+    bottom: 35px;
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card {
+    width: 300px;
+    height: 415px;
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    border: 1px solid gray;
+    box-shadow: 1px 3px 5px gray;
+    transition: box-shadow 0.3s ease-in-out;
+
+}
+
+.text {
+    font-size: auto 30vh;
+    position: relative;
+    top: 10px;
+    font-weight: bold;
+
+}
+
+.card:hover {
+    box-shadow: 2px 5px 10px rgb(190, 120, 40);
+}
